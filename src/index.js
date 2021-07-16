@@ -1,7 +1,24 @@
 /*@ header.js @*/
 
+// temporary global BCAL variable
+const uWindow = typeof unsafeWindow != 'undefined' ? unsafeWindow : window;
+let BCAL = {};
+uWindow.BCAL = BCAL;
+
 (function () {
 	"use strict";
 
-	// dsfndskjfndsofnp
-})()
+	BCAL.Room = class {
+
+	};
+	BCAL.Player = class {
+
+	};
+	BCAL.World = class {
+		constructor() {
+			this.rooms = {};
+		}
+	};
+
+	BCAL.world = new BCAL.World();
+})();

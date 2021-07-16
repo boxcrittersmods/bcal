@@ -1,9 +1,9 @@
 # BCAL
 
-- **B**oxcritters
-- **C**
-- **A**
-- **L**
+- **B**ox
+- **C**ritters
+- **A**bstraction
+- **L**ibrary
 
 ## About
 

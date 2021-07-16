@@ -1,7 +1,7 @@
 ({
 	/*@user code */GM_info,/* @*/
 	overrides: {
-		name: "Boxcritters C A L",
+		name: "Boxcritters Abstraction Library",
 		author: "",
 		//version: , // TODO
 		id: "BCAL",
